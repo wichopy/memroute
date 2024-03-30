@@ -1,4 +1,4 @@
-
+import { koaMiddleware } from './koa'
 
 export function add(a: number, b: number): number {
   return a + b;
@@ -7,7 +7,7 @@ export function add(a: number, b: number): number {
 console.log(add(3, 5)); //output: 8
 
 export default {
-  koa: {},
+  koa: koaMiddleware,
   express: {},
   node: {},
 }
