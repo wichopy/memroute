@@ -2,7 +2,7 @@
   "name": "heaproute",
   "version": "1.0.0",
   "description": "A util library to add a memdump route to a node js service",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "test"
   },
@@ -16,7 +16,7 @@
   ],
   "author": "wichopy",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "@types/node": "^20.12.2",
     "typescript": "^5.4.3"
   }
